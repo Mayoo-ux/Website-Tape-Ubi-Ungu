@@ -12,7 +12,7 @@ body {
 
 header {
     background: #614caf;
-    height: 70px;
+    height: 70px;   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -252,27 +252,41 @@ section {
 }
 
 .contact {
-    background: #f4f4f4;
+    background:#c879ef;
     text-align: center;
     display:flex;
     align-items: center;
     justify-content: center;
     padding: 80px 20px;
+    border-radius: 12px;
 
 }
 
-.contact-info{
+.contact-info {
     margin-top: 0;
 }
+
 .contact-info h2 {
     margin-bottom: 20px;
     margin-top: 30px;
+    text-shadow: 0 0 10px #f2e7f7;
+}
+
+.contact-info h2:hover {
+    transform:scale(1.5);
+    
 }
 
 .contact-info p {
     margin-bottom: 10px;
     font-size: 18px;
+    text-shadow: 0 0 5px #efe2f6;
 }
+
+.contact-info p:hover {
+    color:#cbfb2f;
+}
+
 
 footer {
     background: #333;
